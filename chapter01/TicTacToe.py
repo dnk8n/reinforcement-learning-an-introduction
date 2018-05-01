@@ -93,9 +93,9 @@ class State:
             out = '| '
             for j in range(0, BOARD_COLS):
                 if self.data[i, j] == 1:
-                    token = '*'
+                    token = 'o'
                 if self.data[i, j] == 0:
-                    token = '0'
+                    token = ' '
                 if self.data[i, j] == -1:
                     token = 'x'
                 out += token + ' | '
